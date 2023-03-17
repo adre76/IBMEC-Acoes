@@ -3,7 +3,7 @@
 
 ------------
 
-### Trabalho 1 - Problema da mochila
+### Trabalho 2 - Análise preditiva e otimização
 ------------
 
 **Aluno:** André Luís dos Reis Pereira   **Matrícula:** 202205179109
