@@ -17,7 +17,7 @@ Este trabalho tem como objetivo construir uma aplicação Python utilizando recu
 
 $$ \max \ z= R_{1}\ x_{1} + R_{2}\ x_{2} + R_{3}\ x_{3} + R_{4}\ x_{4} + R_{5}\ x_{5} + R_{6}\ x_{6} + R_{7}\ x_{7} + R_{8}\ x_{8} + R_{9}\ x_{9} + R_{10}\ x_{10}  \\ $$
 
-$$ \mbox{sujeito a:}  \\ \\ \\ \\ \ x_{1} + \ x_{2} + \ x_{3} + \ x_{4} + \ x_{5} + \ x_{6} + \ x_{7} + \ x_{8} + \ x_{9} + \ x_{10} \eq 3 $$
+$$ \mbox{sujeito a:}  \\ \\ \\ \\ \ x_{1} + \ x_{2} + \ x_{3} + \ x_{4} + \ x_{5} + \ x_{6} + \ x_{7} + \ x_{8} + \ x_{9} + \ x_{10} = 3 $$
 
 O aprendizado de máqiuna utilizado foi baseado na arquitetura LSTM. Trata-se de um modelo de rede neural recorrente (RNN) especializada em classificar, processar e prever séries temporais.
 Para cada ativo observado, são geradas três informações específicas para analisar a eficácia do modelo treinado:
