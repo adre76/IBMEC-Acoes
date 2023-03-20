@@ -15,6 +15,10 @@
 #### **Descrição:**
 Este trabalho tem como objetivo construir uma aplicação Python utilizando recursos de aprendizado de máquina para prever valores de 10 ações (livre escolha) e utilizar os valores preditos em uma data futura específica em uma função de otimização que escolherá apenas 3 ações para investimento de forma a minimizar os riscos de perda.
 
+$$ \max \ z= R_{1}\ x_{1} + R_{2}\ x_{2} + R_{3}\ x_{3} + R_{4}\ x_{4} + R_{5}\ x_{5} + R_{6}\ x_{6} + R_{7}\ x_{7} + R_{8}\ x_{8} + R_{9}\ x_{9} + R_{10}\ x_{10}  \\ $$
+
+$$ \mbox{sujeito a:}  \\ \\ \\ \\ \ x_{1} + \ x_{2} + \ x_{3} + \ x_{4} + \ x_{5} + \ x_{6} + \ x_{7} + \ x_{8} + \ x_{9} + \ x_{10} \eq 3 $$
+
 O aprendizado de máqiuna utilizado foi baseado na arquitetura LSTM. Trata-se de um modelo de rede neural recorrente (RNN) especializada em classificar, processar e prever séries temporais.
 Para cada ativo observado, são geradas três informações específicas para analisar a eficácia do modelo treinado:
 - Performance do modelo: Foi utilizada a métrica MSE (erro quadrático médio). Para o valor obtido, quanto mais próximo de zero, melhor é o desempenho do modelo treinado.
