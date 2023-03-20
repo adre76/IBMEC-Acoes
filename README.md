@@ -16,6 +16,10 @@
 Este trabalho tem como objetivo construir uma aplicação Python utilizando recursos de aprendizado de máquina para prever valores de 10 ações (livre escolha) e utilizar os valores preditos em uma data futura específica em uma função de otimização que escolherá apenas 3 ações para investimento de forma a minimizar os riscos de perda.
 
 O aprendizado de máqiuna utilizado foi baseado na arquitetura LSTM. Trata-se de um modelo de rede neural recorrente (RNN) especializada em classificar, processar e prever séries temporais.
+Para cada ativo analisado, são geradas três informações específicas para analisar a eficácia do modelo treinado:
+- Performance do modelo: Foi utilizada a métrica MSE (erro quadrático médio). Para o valor obtido, quanto mais próximo de zero, melhor é o desempenho do modelo treinado.
+- Gráfico de cálculo de erro ao longo do treinamento.
+- Gráfico comparando os valores reais da base de treinamento com os valores obtidos através do modelo treinado utilizando as datas da base de treinamento.
 
 Para calcular a maximização dos resultados, que envolve um problema de otimização combinatória entre os valores das ações de forma a escolher as melhores opções, foi utilizada a função [maximize] do pacote MIP.
 
