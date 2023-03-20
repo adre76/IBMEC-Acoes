@@ -19,6 +19,8 @@ $$ \max \ z= R_{1}\ x_{1} + R_{2}\ x_{2} + R_{3}\ x_{3} + R_{4}\ x_{4} + R_{5}\ 
 
 $$ \mbox{sujeito a:}  \\ \\ \\ \\ \ x_{1} + \ x_{2} + \ x_{3} + \ x_{4} + \ x_{5} + \ x_{6} + \ x_{7} + \ x_{8} + \ x_{9} + \ x_{10} = 3 $$
 
+$$ \ x_{i} \in ( 0,1 ), i = 1,...,10 $$
+
 O aprendizado de máqiuna utilizado foi baseado na arquitetura LSTM. Trata-se de um modelo de rede neural recorrente (RNN) especializada em classificar, processar e prever séries temporais.
 Para cada ativo observado, são geradas três informações específicas para analisar a eficácia do modelo treinado:
 - Performance do modelo: Foi utilizada a métrica MSE (erro quadrático médio). Para o valor obtido, quanto mais próximo de zero, melhor é o desempenho do modelo treinado.
