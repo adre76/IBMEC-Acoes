@@ -3,7 +3,7 @@
 
 ------------
 
-### Trabalho 2 - Análise preditiva e otimização de escolha de ações
+### Trabalho 2 (70%) - Análise preditiva e otimização de escolha de ações
 ------------
 
 **Aluno:** André Luís dos Reis Pereira   **Matrícula:** 202205179109
