@@ -43,4 +43,4 @@ Apesar de ser um trabalho cujo objetivo é apenas demonstrar a funcionalidade de
 #### **Arquivos:**
 - Projeto.ipynb: Notebook com o programa descrito acima.
 - README.md: Arquivo Markdown com a descrição do trabalho.
-- requests.txt: Arquivo com os pacotes (nas suas versões utilizadas para a elaboração deste trabalho), a fim de garantir sua execução mesmo com a evolução das bibliotecas utilizadas no Projeto.ipynb. A preparação do ambioente deve ser feita executando o comando [pip3 install -r requests.txt] no prompt de comando.
+- requests.txt: Arquivo com os pacotes (nas suas versões utilizadas para a elaboração deste trabalho), a fim de garantir sua execução mesmo com a evolução das bibliotecas utilizadas no Projeto.ipynb. A preparação do ambiente deve ser feita executando o comando [pip3 install -r requests.txt] no prompt de comando.
